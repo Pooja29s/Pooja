@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.deer{font-size:40px;text-align: center;font-weight: bold;color:blueviolet;
+padding-bottom: 5px;font-family: 'Times New Roman';}
+.dove{font-size:17px;font-weight:bold;text-align:center;font-family:'Times New Roman' ;}
+h2{
+width:100%;animation-name: text;animation-duration: 5s;animation-iteration-count: infinite;
+}
+#one{animation-direction:normal ;}
+#two{animation-direction:linear;}
+#three{animation-direction:reverse ;}
+#four{animation-direction:alternate;}
+#five{animation-direction:alternate-reverse ;}
+@keyframes text{from {margin-left: 60%;to{margin-left: 0%;}}}
+</style>
+</head>
+<body>
+    <div class="deer">Love Animals</div>
+<div class="dove">Animals improve welfare of humans.</div>
+<h2 id="one">Text is normal.</h2>
+<h2 id="two">Text is linear.</h2>
+<h2 id="three">Text is reverse.</h2>
+<h2 id="four">Text is alternate.</h2>
+<h2 id="five">Text is alternate-reverse.</h2>
+</body>
+</html>
